@@ -11,7 +11,7 @@ import java.sql.SQLException;
 public class UserDAOImpl implements UserDAO {
     private static final String DB_URL = "jdbc:mysql://localhost:3306/registerLogin_db";
     private static final String DB_USER = "root";
-    private static final String DB_PASSWORD = "rishika12345##";
+    private static final String DB_PASSWORD = "golu10";
 
     public UserDAOImpl() {
         try {

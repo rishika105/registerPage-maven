@@ -76,7 +76,7 @@
 <body>
 <div class="container">
     <h1>Register</h1>
-    <form action="regForm2" method="post">
+    <form action="regForm" method="post">
         <div class="form-group">
             <label for="name1">Name:</label>
             <input type="text" id="name1" name="name1" />
@@ -104,6 +104,7 @@
                 <option>Delhi</option>
                 <option>Kolkota</option>
                 <option>Pune</option>
+                <option>Patna</option>
             </select>
         </div>
         <input type="submit" value="Register" />
