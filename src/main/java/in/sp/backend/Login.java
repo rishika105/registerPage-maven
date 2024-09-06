@@ -2,6 +2,7 @@ package in.sp.backend;
 
 import jakarta.servlet.RequestDispatcher;
 
+
 import jakarta.servlet.ServletException;
 import jakarta.servlet.annotation.WebServlet;
 import jakarta.servlet.http.HttpServlet;
@@ -24,7 +25,7 @@ public class Login extends HttpServlet {
 
 	public Login() {
 		super();
-		userDAO = new in.sp.dao.impl.UserDAOImpl(); // Initialize DAO
+		userDAO = new UserDAOImpl(); // Initialize DAO
 	}
 
 	protected void doPost(HttpServletRequest request, HttpServletResponse response)
